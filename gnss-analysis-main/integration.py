@@ -335,7 +335,6 @@ if __name__ == '__main__':
   ecef_List=process('C:\\Users\\user\Desktop\gnss-analysis-main\data\sample\walking.txt')
   csv_FromList = pd.DataFrame(ecef_List)
   csv_FromList.to_csv("Measurements_Output.csv", index=False)
-  #####Q3####
   file_measurements_output='android_position.csv'
   csv_to_kml(file_measurements_output,'output_kml.kml')
 
