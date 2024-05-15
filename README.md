@@ -7,12 +7,8 @@ https://www.johnsonmitchelld.com/2021/03/14/least-squares-gps.html
 ## How To Run:
 * Download the files from github
 * open the code (for example pyCharm)
-* open the file integration.py
-* in the main you need to do this before run the code
-* first put the path file for what file you want(file fixed or walking or driving) in line 335 like this:
-```python
-ecef_List=process('C:\\Users\\user\Desktop\gnss-analysis-main\data\sample\walking.txt')
-```
+* open the terminal write python integration.py
+* Example (python integration.py C:\\Users\\user\\Desktop\\gnss-analysis-main\\data\\sample\\walking.txt)
 * Run the Code.
 
 * the result for Q2:
